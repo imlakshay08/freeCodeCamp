@@ -1,7 +1,7 @@
 ---
 id: 5900f4b91000cf542c50ffcc
 title: 'Problema 333: Partizioni speciali'
-challengeType: 5
+challengeType: 1
 forumTopicId: 301991
 dashedName: problem-333-special-partitions
 ---
@@ -14,7 +14,8 @@ Consideriamo solo quelle partizioni dove nessuno dei termini può dividere uno d
 
 Molti interi hanno più di una partizione valida, il primo è 11 con le due partizioni seguenti.
 
-$$\begin{align} & 11 = 2 + 9 = (2^1 \times 3^0 + 2^0 \times 3^2) \\\\ & 11 = 8 + 3 = (2^3 \times 3^0 + 2^0 \times 3^1) \end{align}$$
+$$\begin{align}   & 11 = 2 + 9 = (2^1 \times 3^0 + 2^0 \times 3^2) \\\\
+  & 11 = 8 + 3 = (2^3 \times 3^0 + 2^0 \times 3^1) \end{align}$$
 
 Definiamo $P(n)$ come il numero di partizioni valide di $n$. Per esempio, $P(11) = 2$.
 

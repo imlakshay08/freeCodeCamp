@@ -7,7 +7,7 @@ dashedName: step-41
 
 # --description--
 
-Now it's time time to add other details to the markers, starting with the first one.
+Now it's time to add other details to the markers, starting with the first one.
 
 In the first marker `div` element, change the class `one` to `red`.
 
@@ -33,12 +33,12 @@ assert(containerFirstChild?.classList?.contains('marker') && containerFirstChild
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Color Markers</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Colored Markers</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <h1>CSS Color Markers</h1>

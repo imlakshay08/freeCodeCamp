@@ -1,7 +1,7 @@
 ---
 id: 5900f52e1000cf542c510041
 title: 'Problema 450: Ipocicloide e punti del reticolo'
-challengeType: 5
+challengeType: 1
 forumTopicId: 302123
 dashedName: problem-450-hypocycloid-and-lattice-points
 ---
@@ -24,9 +24,10 @@ Sia $T(N) = \sum_{R = 3}^N \sum_{r=1}^{\left\lfloor \frac{R - 1}{2} \right\rfloo
 
 Ti è dato che:
 
-$$\begin{align} C(3, 1) = & \\{(3, 0), (-1, 2), (-1,0), (-1,-2)\\} \\\\ C(2500, 1000) = & \\{(2500, 0), (772, 2376), (772, -2376), (516, 1792), (516, -1792), (500, 0), (68, 504), \\\\ &(68, -504),(-1356, 1088), (-1356, -1088), (-1500, 1000), (-1500, -1000)\\} \end{align}$$
+$$\begin{align}   C(3, 1) = & \\{(3, 0), (-1, 2), (-1,0), (-1,-2)\\} \\\\
+  C(2500, 1000) = & \\{(2500, 0), (772, 2376), (772, -2376), (516, 1792), (516, -1792), (500, 0), (68, 504), \\\\ &(68, -504),(-1356, 1088), (-1356, -1088), (-1500, 1000), (-1500, -1000)\\} \end{align}$$
 
-**Nota:** (-625, 0) non è un elemento di $C(2500, 1000)$ perché $\sin(t)$ non è un numero razionale per i valori corrispondenti di t.
+**Nota:**(-625, 0) non è un elemento di $C(2500, 1000)$ perchè $\sin(t)$ non è un numero razionale per i corrispondenti valori di $t$.
 
 $S(3, 1) = (|3| + |0|) + (|-1| + |2|) + (|-1| + |0|) + (|-1| + |-2|) = 10$
 

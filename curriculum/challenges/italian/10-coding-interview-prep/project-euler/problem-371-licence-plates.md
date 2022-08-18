@@ -1,7 +1,7 @@
 ---
 id: 5900f4e01000cf542c50fff2
 title: 'Problema 371: Targhe'
-challengeType: 5
+challengeType: 1
 forumTopicId: 302033
 dashedName: problem-371-licence-plates
 ---
@@ -14,7 +14,7 @@ Mentre guida per andare a lavoro Seth gioca il seguente gioco:
 
 Ogni volta che i numeri di due targhe visti nel suo viaggio si sommano a 1000, vince.
 
-Ad es. `MIC-012` e `HAN-988` è una vittoria e `RYU-500` e `SET-500` anche. (finché li vede nello stesso viaggio).
+Ad es. `MIC-012` e `HAN-988` è una vittoria, così come `RYU-500` e `SET-500` (sempre che li veda nello stesso viaggio).
 
 Trova il numero previsto di targhe che ha bisogno di vedere per una vittoria. Dai la tua risposta approssimata a 8 cifre dopo il punto decimale.
 

@@ -1,7 +1,7 @@
 ---
 id: 5900f3c81000cf542c50fedb
 title: 'Problema 92: catene dei quadrati delle cifre'
-challengeType: 5
+challengeType: 1
 forumTopicId: 302209
 dashedName: problem-92-square-digit-chains
 ---
@@ -12,7 +12,8 @@ Una catena di numeri è creata sommando in modo continuo i quadrati delle cifre 
 
 Per esempio,
 
-$$\begin{align} & 44 → 32 → 13 → 10 → \boldsymbol{1} → \boldsymbol{1}\\\\ & 85 → \boldsymbol{89} → 145 → 42 → 20 → 4 → 16 → 37 → 58 → \boldsymbol{89}\\\\ \end{align}$$
+$$\begin{align}   & 44 → 32 → 13 → 10 → \boldsymbol{1} → \boldsymbol{1}\\\\
+  & 85 → \boldsymbol{89} → 145 → 42 → 20 → 4 → 16 → 37 → 58 → \boldsymbol{89}\\\\ \end{align}$$
 
 Quindi ogni catena che arriva ad 1 o 89 si bloccherà in un loop senza fine. La cosa affascinante è che OGNI numero iniziale arriverà prima o poi a 1 o 89.
 

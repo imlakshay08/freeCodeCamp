@@ -1,7 +1,7 @@
 ---
 id: 5900f4c81000cf542c50ffdb
 title: 'Problema 348: Somma di un quadrato e di un cubo'
-challengeType: 5
+challengeType: 1
 forumTopicId: 302007
 dashedName: problem-348-sum-of-a-square-and-a-cube
 ---
@@ -14,7 +14,9 @@ Considera i numeri palindromici che possono essere espressi come la somma di un 
 
 Ad esempio, 5229225 è un numero palindromico e può essere espresso esattamente in 4 modi diversi:
 
-$$\begin{align} & {2285}^2 + {20}^3 \\\\ & {2223}^2 + {66}^3 \\\\ & {1810}^2 + {125}^3 \\\\ & {1197}^2 + {156}^3 \end{align}$$
+$$\begin{align}   & {2285}^2 + {20}^3 \\\\
+  & {2223}^2 + {66}^3 \\\\   & {1810}^2 + {125}^3 \\\\
+  & {1197}^2 + {156}^3 \end{align}$$
 
 Trova la somma dei cinque numeri palindromi più piccoli.
 

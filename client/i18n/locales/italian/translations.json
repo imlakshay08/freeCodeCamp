@@ -26,6 +26,7 @@
     "off": "Off",
     "on": "On",
     "sign-in": "Accedi",
+    "sign-up-email-list": "Iscriviti alle email settimanali di Quincy",
     "sign-out": "Esci",
     "curriculum": "Curriculum",
     "forum": "Forum",
@@ -49,6 +50,8 @@
     "reset-lesson": "Resetta questa lezione",
     "run": "Avvia",
     "run-test": "Esegui i test (Ctrl + Invio)",
+    "check-code": "Verifica il tuo codice (Ctrl + Invio)",
+    "check-code-2": "Verifica il tuo codice",
     "reset": "Resetta",
     "reset-code": "Resetta tutto il codice",
     "help": "Guida",
@@ -57,6 +60,7 @@
     "resubscribe": "Puoi cliccare qui per reiscriverti",
     "click-here": "Clicca qui per accedere",
     "save": "Salva",
+    "save-code": "Salva il codice",
     "no-thanks": "No, grazie",
     "yes-please": "Sì, volentieri",
     "update-email": "Aggiorna la mia Email",
@@ -66,8 +70,12 @@
     "ask-later": "Chiedimelo più tardi",
     "start-coding": "Inizia a programmare!",
     "go-to-settings": "Vai alle impostazioni per richiedere la tua certificazione",
-    "click-start-course": "Fai click qui per iniziare il corso",
-    "click-start-project": "Fai click qui per iniziare il progetto"
+    "click-start-course": "Inizia il corso",
+    "click-start-project": "Inizia il progetto",
+    "change-language": "Cambia lingua",
+    "cancel-change": "Annulla modifica",
+    "resume-project": "Riprendi progetto",
+    "start-project": "Avvia il progetto"
   },
   "landing": {
     "big-heading-1": "Impara a programmare — gratis.",
@@ -98,7 +106,7 @@
   },
   "settings": {
     "share-projects": "Condividi i tuoi progetti non-freeCodeCamp, articoli o pull request accettate.",
-    "privacy": "Le impostazioni di questa sezione ti permettono di controllare quello che viene mostrato sul tuo portfolio pubblico di freeCodeCamp.",
+    "privacy": "Le impostazioni di questa sezione ti permettono di controllare quello che viene mostrato sul tuo portfolio pubblico di freeCodeCamp. Premi salva per salvare le tue modifiche.",
     "data": "Per vedere quali dati teniamo nel tuo account, clicca sul pulsante \"Scarica i tuoi dati\" qui sotto",
     "disabled": "Le tue certificazioni saranno disabilitate, se impostato su privato.",
     "private-name": "Il tuo nome non apparirà sulle certificazioni, se impostato su privato.",
@@ -140,7 +148,8 @@
       "my-timeline": "La mia cronologia",
       "my-donations": "Le mie donazioni",
       "night-mode": "Modalità Notturna",
-      "sound-mode": "Modalità Campfire"
+      "sound-mode": "Modalità Campfire",
+      "keyboard-shortcuts": "Abilita le scorciatoie da tastiera"
     },
     "headings": {
       "certs": "Certificazioni",
@@ -266,6 +275,7 @@
     "solution-link": "Link alla soluzione",
     "github-link": "Link GitHub",
     "submit-and-go": "Invia e vai alla prossima sfida",
+    "congratulations": "Congratulazioni, hai superato i test. Invia in tuo codice per continuare.",
     "i-completed": "Ho completato questa sfida",
     "test-output": "Il risultato del tuo test andrà qui",
     "running-tests": "// test in corso",
@@ -282,8 +292,7 @@
     "scrimba-tip": "Suggerimento: Se il mini-browser copre il codice, fare clic e trascinalo per spostarlo. Inoltre, sentiti libero di fermare e modificare il codice nel video in qualsiasi momento.",
     "chal-preview": "Anteprima della sfida",
     "cert-map-estimates": {
-      "certs": "Certificazione {{title}} (300 ore)",
-      "coding-prep": "{{title}} (migliaia di ore di sfide)"
+      "certs": "Certificazione {{title}}"
     },
     "editor-tabs": {
       "info": "Informazioni",
@@ -292,6 +301,7 @@
       "restart": "Inizia da capo",
       "restart-step": "Ricomincia step",
       "console": "Console",
+      "instructions": "Istruzioni",
       "notes": "Note",
       "preview": "Anteprima"
     },
@@ -303,7 +313,17 @@
     "step-2": "Step 2: Consegna il codice",
     "submit-public-url": "Quando hai completato il progetto salva tutti i file richiesti in una repository pubblica e consegna l'URL qui sotto.",
     "complete-both-steps": "Completa entrambi gli step qua sotto per finire la sfida.",
-    "runs-in-vm": "Il progetto esegue in una macchina virtuale, completa le user story descritte lì dentro e fai passare tutti i test per finire lo step 1."
+    "runs-in-vm": "Il progetto esegue in una macchina virtuale, completa le user story descritte lì dentro e fai passare tutti i test per finire lo step 1.",
+    "completed": "Completato",
+    "not-started": "Non iniziato",
+    "hint": "Suggerimento",
+    "test": "Test",
+    "sorry-try-again": "Il tuo codice non è corretto. Riprova.",
+    "sorry-keep-trying": "Il tuo codice non è corretto. Continua a provare.",
+    "sorry-getting-there": "Il tuo codice non è corretto. Ci sei quasi.",
+    "sorry-hang-in-there": "Il tuo codice non è corretto. Tieni duro.",
+    "sorry-dont-giveup": "Il tuo codice non è corretto. Non arrenderti.",
+    "challenges-completed": "{{completedCount}} di {{totalChallenges}} sfide completate"
   },
   "donate": {
     "title": "Supporta il nostro no profit",
@@ -311,10 +331,10 @@
     "redirecting": "Reindirizzamento...",
     "thanks": "Grazie per la donazione",
     "thank-you": "Grazie per essere un sostenitore.",
-    "thank-you-2": "Grazie per essere un sostenitore di freeCodeCamp. Al momento hai una donazione ricorrente.",
     "additional": "Puoi effettuare una donazione una tantum aggiuntiva di qualsiasi importo utilizzando questo link: <0>{{url}}</0>",
     "help-more": "Aiutaci a fare di più",
     "error": "Qualcosa è andato storto con la tua donazione.",
+    "error-2": "C'è qualcosa che non va. Per favore scrivi a donors@freecodecamp.org",
     "free-tech": "Le tue donazioni sosterranno l'educazione tecnologica gratuita per le persone di tutto il mondo.",
     "no-halo": "Se non vedi un alone d'oro intorno alla foto del tuo profilo, contatta donors@freecodecamp.org.",
     "gift-frequency": "Seleziona la frequenza del dono:",
@@ -354,6 +374,7 @@
     "try-again": "Per favore riprova.",
     "card-number": "Numero della tua Carta:",
     "expiration": "Data di scadenza:",
+    "secure-donation": "Donazione sicura",
     "faq": "Domande frequenti",
     "only-you": "Solo tu puoi vedere questo messaggio. Congratulazioni nell'aver ottenuto questa certificazione. Non è una cosa facile. Neanche mantenere attivo freeCodeCamp è facile. E non è neanche economico. Aiutaci ad aiutare te e tante altre persone attorno al mondo. Fai oggi una donazione per supportare la nostra noprofit.",
     "get-help": "Come posso ottenere aiuto con le mie donazioni?",
@@ -408,7 +429,7 @@
   },
   "search": {
     "label": "Cerca",
-    "placeholder": "Cerca oltre 8000 tutorial",
+    "placeholder": "Cerca tra 100+ tutorial",
     "see-results": "Vedi tutti i risultati per {{searchQuery}}",
     "no-tutorials": "Nessun tutorial trovato",
     "try": "Cerchi qualcosa? Prova la barra di ricerca su questa pagina.",
@@ -428,7 +449,9 @@
     "and": "e",
     "change-theme": "Accedi per modificare il tema.",
     "translation-pending": "Aiutaci a tradurlo",
-    "certification-project": "Progetto della certificazione"
+    "certification-project": "Progetto della certificazione",
+    "iframe-alert": "Solitamente questo link ti porterebbe su un altro sito web! Funziona. Questo è un link per {{externalLink}}",
+    "document-notfound": "documento non trovato"
   },
   "icons": {
     "gold-cup": "Coppa d'Oro",
@@ -437,24 +460,15 @@
     "donate": "Dona con PayPal",
     "fail": "Test Fallito",
     "not-passed": "Non Superato",
+    "waiting": "Attendi",
     "passed": "Superato",
+    "failed": "Non corretto",
+    "hint": "Suggerimento",
     "heart": "Cuore",
     "initial": "Iniziale",
     "info": "Informazioni introduttive",
     "spacer": "Distanziatore",
     "toggle": "Attiva/Disattiva segno di spunta",
-    "responsive-design": "Icona portatile e telefono cellulare",
-    "javascript": "Icona JavaScript",
-    "react": "Icona React",
-    "d3": "Icona D3",
-    "api": "Una pila di server",
-    "clipboard": "Una clipboard con un segno di spunta",
-    "python": "Icona Python",
-    "analytics": "Un grafico a barre e un grafico a linea",
-    "shield": "Uno scudo con un segno di spunta",
-    "tensorflow": "Icona di Tensorflow",
-    "database": "Icona del database",
-    "algorithm": "Nodi con rami",
     "magnifier": "lente d'ingrandimento"
   },
   "aria": {
@@ -469,7 +483,12 @@
     "next-page": "Va alla pagina successiva",
     "last-page": "Va all'ultima pagina",
     "primary-nav": "primario",
-    "breadcrumb-nav": "percorso"
+    "breadcrumb-nav": "percorso",
+    "submit": "Usa Ctrl + Invio per inviare.",
+    "running-tests": "Test in corso",
+    "step": "Step",
+    "steps": "Step",
+    "steps-for": "Step per {{blockTitle}}"
   },
   "flash": {
     "honest-first": "Per richiedere una certificazione, è necessario prima accettare la nostra politica di onestà accademica",
@@ -520,13 +539,20 @@
     "provide-username": "Spunta la casella se hai fornito un nome utente e un report",
     "report-sent": "Un report è stato inviato al team con {{email}} in copia",
     "certificate-missing": "La certificazione che hai cercato di visualizzare non esiste",
-    "create-token-err": "Si è verificato un errore cercando di creare un token",
-    "delete-token-err": "Si è verificato un errore cercando di eliminare il tuo token",
-    "token-created": "Hai creato con successo un nuovo token.",
-    "token-deleted": "Il tuo token è stato eliminato.",
+    "create-token-err": "Un errore è occorso durante la creazione del tuo token",
+    "delete-token-err": "Un errore è occorso durante la cancellazione del tuo token",
+    "token-created": "Hai creato con successo un nuovo token utente.",
+    "token-deleted": "Il tuo token utente è stato eliminato.",
+    "start-project-err": "Qualcosa è andato storto provando ad avviare il progetto. Per favore prova di nuovo.",
     "complete-project-first": "Devi prima completare il progetto.",
     "local-code-save-error": "Oops, il codice non è stato salvato, il local storage del tuo browser potrebbe essere pieno.",
-    "local-code-saved": "Salvato! Il tuo codice è stato salvato nel local storage del tuo browser."
+    "local-code-saved": "Salvato! Il tuo codice è stato salvato nel local storage del tuo browser.",
+    "code-saved": "Il tuo codice è stato salvato nel database. Sarà qui quando torni.",
+    "code-save-error": "C'è stato un errore provando asalvare il tuo codice.",
+    "code-save-less": "Rallenta! Il tuo codice non è stato salvato. Prova di nuovo tra qualche secondo.",
+    "challenge-save-too-big": "Ci dispiace, non possiamo salvare il tuo codice. Il tuo codice è {{user-size}} byte. Il massimo è di {{max-size}} byte. Per cortesia rendi il tuo codice più piccolo o richiedi assistenza a https://forum.freecodecamp.org",
+    "challenge-submit-too-big": "Ci dispiace, non puoi consegnare il tuo codice. Il tuo codice è {{user-size}} byte. Il massimo è di {{max-size}} byte. Per cortesia rendi il tuo codice più piccolo o richiedi assistenza a https://forum.freecodecamp.org",
+    "invalid-update-flag": "Stai cercando di accedere a risorse proibite. Per favore richiedi assistenza su https://forum.freecodecamp.org se questa è una richiesta valida."
   },
   "validation": {
     "max-characters": "C'è un limite massimo di 288 caratteri, hai {{charsLeft}} rimanenti",
@@ -656,17 +682,28 @@
     "add-code-two": "Si prega di lasciare la linea ``` sopra e la linea ``` sotto,",
     "add-code-three": "perché consentono al codice di disporsi correttamente nel post."
   },
-  "webhook-token": {
-    "title": "Token Webhook",
+  "user-token": {
+    "title": "Token Utente",
     "create": "Crea un nuovo token",
-    "create-p1": "Sembra che tu non abbia un token di webhook. Creane uno per salvare i tuoi progressi in questa sezione",
-    "create-p2": "Crea un token webhook per salvare i tuoi progressi nelle sezioni di curriculum che utilizzano una macchina virtuale.",
-    "delete": "Elimina il mio token",
-    "delete-title": "Elimina il mio Token Webhook",
-    "delete-p1": "Il token di webhook qui sotto viene utilizzato per salvare i tuoi progressi nelle sezioni di curriculum che utilizzano una macchina virtuale.",
-    "delete-p2": "Se sospetti che il tuo token sia stato compromesso, puoi eliminarlo per renderlo inutilizzabile. I progressi sulle lezioni precedentemente inviate non andranno persi.",
-    "delete-p3": "È necessario creare un nuovo token per salvare i progressi futuri nelle sezioni di curriculum che utilizzano una macchina virtuale.",
-    "no-thanks": "No grazie, vorrei mantenere il mio token",
+    "create-p1": "Sembra che tu non abbia un token utente. Creane uno per salvare i tuoi progressi in questa sessione",
+    "create-p2": "Crea un token utente per salvare i tuoi progressi nella sezione del curriculum che usa una macchina virtuale.",
+    "delete": "Elimina il mio token utente",
+    "delete-title": "Elimina il mio token utente",
+    "delete-p1": "Il token utente è usato per salvare i tuoi progressi nelle sezioni del curriculum che usano una macchina virtuale. Se sospetti che sia stato compromesso, lo puoi eliminare senza perdere i tuoi progressi. Uno nuovo sarà creato automaticamente la prossima volta che apri un progetto.",
+    "delete-p2": "Se sospetti che il tuo token sia stato compromesso, lo puoi eliminare per renderlo inutile. Il progresso su lezioni completare in precedenza non sarà perso.",
+    "delete-p3": "Avrai bisogno di creare un nuovo token per salvare progressi futuri nelle sezioni del curriculum che usano una macchina virtuale.",
+    "no-thanks": "No grazie, vorrei tenere il mio token",
     "yes-please": "Sì per favore, vorrei eliminare il mio token"
+  },
+  "shortcuts": {
+    "title": "Scorciatoie da tastiera",
+    "table-header-action": "Azione",
+    "table-header-key": "Tasti",
+    "navigation-mode": "Modalità Di Navigazione",
+    "execute-challenge": "Esegui Sfida",
+    "focus-editor": "Focus Editor",
+    "focus-instructions-panel": "Focus sul pannello delle istruzioni",
+    "navigate-previous": "Passa all'esercizio precedente",
+    "navigate-next": "Passa all'esercizio successivo"
   }
 }

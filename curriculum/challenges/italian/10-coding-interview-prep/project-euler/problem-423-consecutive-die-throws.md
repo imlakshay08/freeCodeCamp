@@ -1,7 +1,7 @@
 ---
 id: 5900f5141000cf542c510027
 title: 'Problema 423: Lanci di dadi consecutivi'
-challengeType: 5
+challengeType: 1
 forumTopicId: 302093
 dashedName: problem-423-consecutive-die-throws
 ---
@@ -14,7 +14,8 @@ Un dado a 6 lati viene lanciato $n$ volte. Sia $c$ il numero di coppie di lanci 
 
 Ad esempio, se $n = 7$ e i valori dei lanci sono (1, 1, 5, 6, 6, 6, 3), allora le seguenti coppie di lanci consecutivi danno lo stesso valore:
 
-$$\begin{align} & (\underline{1}, \underline{1}, 5, 6, 6, 6, 3) \\\\ & (1, 1, 5, \underline{6}, \underline{6}, 6, 3) \\\\ & (1, 1, 5, 6, \underline{6}, \underline{6}, 3) \end{align}$$
+$$\begin{align}   & (\underline{1}, \underline{1}, 5, 6, 6, 6, 3) \\\\
+  & (1, 1, 5, \underline{6}, \underline{6}, 6, 3) \\\\ & (1, 1, 5, 6, \underline{6}, \underline{6}, 3) \end{align}$$
 
 Pertanto, $c = 3$ per (1, 1, 5, 6, 6, 6, 3).
 
